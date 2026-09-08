@@ -10,7 +10,7 @@
 
      (header {:channels [{:name \"R\" :type :half} {:name \"G\" :type :half} {:name \"B\" :type :half}]
               :dataWindow [[0 0] [1919 1079]] :compression :zip})"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:private ctype {:half "16-bit floating-point" :float "32-bit floating-point"
                       :uint "32-bit unsigned integer"})
