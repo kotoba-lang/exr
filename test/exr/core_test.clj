@@ -3,7 +3,7 @@
    the exrheader-style attribute listing: channel typing, box2i windows, compression/lineOrder enums,
    defaults, and custom typed attributes."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [exr.core :as exr]))
 
 (deftest a-header-listing
