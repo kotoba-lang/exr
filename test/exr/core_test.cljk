@@ -2,7 +2,7 @@
   "Golden tests for kotoba.exr — the OpenEXR *header* hiccup (pixels are binary / out of scope). They pin
    the exrheader-style attribute listing: channel typing, box2i windows, compression/lineOrder enums,
    defaults, and custom typed attributes."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.lang.text :as str]
             [exr.core :as exr]))
 
